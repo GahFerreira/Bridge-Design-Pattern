@@ -55,7 +55,7 @@ public class Pokemon extends Carta
     @Override
     public void produzir()
     {
-        System.out.printf("Carta do Pokemon " + nome + " ");
+        System.out.printf("Produziu 1 Carta do Pokemon " + nome + " ");
         modelo.imprimir();
     }
 }

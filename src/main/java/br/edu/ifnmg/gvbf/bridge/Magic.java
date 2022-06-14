@@ -57,7 +57,7 @@ public class Magic extends Carta
     @Override
     public void produzir()
     {
-        System.out.printf("Carta " + cor + " do tipo " + tipo + " ");
+        System.out.printf("Produziu 1 Carta de Magic " + cor + " do tipo " + tipo + " ");
         modelo.imprimir();
     }
 }

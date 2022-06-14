@@ -34,6 +34,16 @@ public class Program
 {
     public static void main(String[] args)
     {
+        Carta c1 = new Magic("vermelha", "criatura", new Brilhante());
+        c1.produzir();
         
+        Carta c2 = new Pokemon("Pikachu", new PretoBranco());
+        c2.produzir();
+        
+        Carta c3 = new Uno("3", "azul", new Colorida());
+        c3.produzir();
+        
+        Carta c4 = new Uno("0", "verde", new Brilhante());
+        c4.produzir();
     }
 }

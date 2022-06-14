@@ -67,7 +67,7 @@ public class Uno extends Carta
     @Override
     public void produzir()
     {
-        System.out.println("Carta " + caractere + " " + cor + " ");
+        System.out.printf("Produziu 1 Carta de Uno " + caractere + " " + cor + " ");
         modelo.imprimir();
     }
 }
